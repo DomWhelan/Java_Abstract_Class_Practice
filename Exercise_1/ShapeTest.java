@@ -47,6 +47,17 @@ public class ShapeTest {
         System.out.println(r2);
         System.out.println(r2.getArea());
         System.out.println(r2.getColor());
+        // System.out.println(r2.getSide());        getSide() not defined for Recttangle Class
+        System.out.println(r2.getLength());
+        
+        // Downcast Rectangle r2 to Square
+        Square sq1 = (Square)r2;
+        System.out.println(sq1);
+        System.out.println(sq1.getArea());
+        System.out.println(sq1.getColor());
+        System.out.println(sq1.getSide());
+        System.out.println(sq1.getLength());
+
 
         
     }
